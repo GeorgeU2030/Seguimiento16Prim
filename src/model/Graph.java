@@ -114,6 +114,7 @@ public class Graph<T> {
         	 j++;
          }
          costMatrix[i][j]=cost;
+         costMatrix[j][i]=cost;
 	    }
 	    public void printCost() {
 	    	for (int x=0; x < costMatrix.length; x++) {
